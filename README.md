@@ -22,4 +22,4 @@
         e. Cobertura de testes;
         f. Tempo gasto para cumprir a tarefa 
         (será considerado o momento da solicitação do merge request como fim).
-<img align="center" width=400 heigth=80 src="imagens/fluxo.jpg" />
+<img  width=350 heigth=80 src="imagens/fluxo.jpg" />
