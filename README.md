@@ -30,8 +30,9 @@
 </p>
     
 ## 3. Arquitetura de Referencia:
+   Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração. <br />
+   <p>
    <p align="center">
-	Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração. <br />
    <p align="center">
   <img src="imagens/fluxo.jpg" width="350" title="Arquitetura de exemplo">
 </p>
