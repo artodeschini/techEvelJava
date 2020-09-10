@@ -8,7 +8,7 @@
 ## 1. Objetivo:
         
        - Criar uma API fake ou utilizar alguma api publica que contenha cadastro de produtos. 
-       - Criar Uma API fake que exponha um metodo Post para inserção dos dados de produtos consultados do Sistema A
+       - Criar Uma API fake que exponha um metodo Post para inserção dos dados de produtos consultados do Sistema A.
        - Criar uma arquitetura de microserviços orientada a eventos que tem como objetivo pegar os dados da Api de produto e inserir num sistema B que está expondo uma API de inserção de dados.
         
 ## 2. Regras Gerais:
@@ -30,13 +30,10 @@
 </p>
     
 ## 3. Arquitetura de Referencia:
-   Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração. <br />
-   <p>
-   <p align="center">
-   <p align="center">
-  <img src="imagens/fluxo.jpg" width="350" title="Arquitetura de exemplo">
-</p>
-    
+   Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração.
+   
+   <img src="imagens/fluxo.jpg" alt="Arquitetura de Referencia" title="Arquitetura de Referencia" />
+
     
   ## 4. Entregaveis:
     Ao final do desenvolvimento voce deve entregar: 
