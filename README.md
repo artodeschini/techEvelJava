@@ -13,21 +13,20 @@
         
 ## 2. Regras Gerais:
 
-   <p>
-    -   O desenvolvimento dos microserviços devem ser feitos em java (springboot). <br />
-    -   Pode-se utilizar banco no-sql ou h2 para armazenar estado. <br />
-    -   Para a mensageria você pode utlizar rabbitmq ou kafka. <br />
-    -   Pode trabalhar com o banco h2 para armazenar as mensagens enviadas. <br />
-    -   Você não possui uma data final para entregar o exame,  mas iremos avaliar o tempo necessário para cumprir a atividade e a qualidade da entrega. <br />
-    -   Seu código será avaliado quanto ao cumprimento das tarefas e a qualidade do código escrito. <br />
-    -   O código será avaliado segundo os seguintes critérios de avalição: <br />
-        a.  Execução; <br />
-        b.  Limpeza do código; <br />
-        c.  Organização; <br />
-        d.  Legibilidade; <br />
-        e.  Cobertura de testes; <br />
-        f.  Tempo gasto para cumprir a tarefa (será considerado o momento da solicitação do merge request como fim); <br />
-</p>
+  * O desenvolvimento dos microserviços devem ser feitos em java (springboot). 
+  * Pode-se utilizar banco no-sql ou h2 para armazenar estado.
+  * Para a mensageria você pode utlizar rabbitmq ou kafka.
+  * Pode trabalhar com o banco h2 para armazenar as mensagens enviadas.
+  * Você não possui uma data final para entregar o exame,  mas iremos avaliar o tempo necessário para cumprir a atividade e a qualidade da entrega.
+  * Seu código será avaliado quanto ao cumprimento das tarefas e a qualidade do código escrito.
+  * O código será avaliado segundo os seguintes critérios de avalição:
+  
+         a.  Execução;
+         b.  Limpeza do código;
+         c. Organização;
+         d. Legibilidade;
+         e. Cobertura de testes;
+         f. Tempo gasto para cumprir a tarefa (será considerado o momento da solicitação do merge request como fim);
     
 ## 3. Arquitetura de Referencia:
    Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração.
