@@ -2,9 +2,10 @@
 # Tech Eval PortoBello
 
 ### 1. Objetivo:
-        Criar api mock utilizando h2 ou consumir alguma api publica de produto.
         
-### 1. Regras Gerais:
+       Criar api mock utilizando h2 ou consumir alguma api publica de produto.
+        
+### 2. Regras Gerais:
 
    
     1. O desenvolvimento dos microserviços devem ser feitos em java (springboot)
@@ -25,4 +26,6 @@
         e. Cobertura de testes;
         f. Tempo gasto para cumprir a tarefa 
         (será considerado o momento da solicitação do merge request como fim).
-<img  width=350 heigth=80 src="imagens/fluxo.jpg" />
+    9.  Abaixo o modelo esperado.
+    
+<img  width=350 heigth=60 src="imagens/fluxo.jpg" />
