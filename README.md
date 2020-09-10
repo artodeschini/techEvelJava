@@ -2,7 +2,8 @@
 # Tech Eval PortoBello
 
 # Introdução 
-   voce faz parte do time de integrações da Portobello e recebeu a demanda de integrar dados de produto que estão sendo originados pelo sistema de origem  e precisam ser inputados no sistema de destino. 
+
+   Você faz parte do time de integrações da Portobello e recebeu a demanda de integrar dados de produtos que estão sendo originados pelo sistema de origem e precisam ser       inputados no sistema de destino. 
    Sua tarefa é criar uma arquitetura de integração que seja possivel realizar este fluxo com qualidade , escalabilidade e segurança. 
 
 ## 1. Objetivo:
@@ -27,12 +28,12 @@
          e. Cobertura de testes;
          f. Tratativa de erros e de exceções;
     
-## 3. Arquitetura de Referencia:
+## 3. Arquitetura de Referência:
 
 Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o desenvolvimento da integração.
 
 <p align="center">
-<img src="imagens/fluxo.jpg" alt="Arquitetura de Referencia" title="Arquitetura de Referencia" />
+<img src="imagens/fluxo.jpg" alt="Arquitetura de Referência" title="Arquitetura de Referência" />
 </p>
 
 ## 4. Exemplos Json: 
@@ -45,15 +46,15 @@ Segue abaixo exemplos que podem ser utilizados na api de get e Put.
 
      $ curl -XGET https://api.produto.exemplo/7897312400184
     Response:
-     {
-     Product: {
-      code: "7897312400184",
-      name: "DETERGENTE ECONOMICO NEUTRO 500ML",
-      category: "",
-      manufacturer: "",
-      id: "9587e780-e495-11e5-9d5b-5da257427e93"
-     }
-    }
+        {
+        Product: {
+         code: "7897312400184",
+         name: "DETERGENTE ECONOMICO NEUTRO 500ML",
+         category: "",
+         manufacturer: "",
+         id: "9587e780-e495-11e5-9d5b-5da257427e93"
+        }
+       }
 
      
      b. Add products
@@ -69,7 +70,7 @@ Segue abaixo exemplos que podem ser utilizados na api de get e Put.
      d.  Delete products
     $ curl -XDELETE https://api.produto.xyz/v1/products/{id}
   
-## 5. Entregaveis:
-    Ao final do desenvolvimento voce deve entregar: 
-       - Repositorio com o codigo fonte , contendo orientações de como subir o ambiente. 
+## 5. Entregáveis:
+    Ao final do desenvolvimento você deverá entregar: 
+       - Repositório com o codigo fonte , contendo orientações de como subir o ambiente. 
        - Breve explicação da solução desenvolvida.
