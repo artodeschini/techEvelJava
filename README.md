@@ -30,7 +30,9 @@
         (será considerado o momento da solicitação do merge request como fim).
     9.  Abaixo um exemplo de arquitetura para está integração.
     
-    <img  width=350 heigth=60 src="imagens/fluxo.jpg" />
+   <p align="center">
+  <img src="imagens/fluxo.jpg" width="350" title="Arquitetura de exemplo">
+</p>
     
     
   ### 3. Entregaveis:
