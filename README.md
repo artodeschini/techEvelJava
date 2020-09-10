@@ -34,9 +34,42 @@ Segue abaixo um exemplo de arquitetura que pode ser utilizada como base para o d
 <p align="center">
 <img src="imagens/fluxo.jpg" alt="Arquitetura de Referencia" title="Arquitetura de Referencia" />
 </p>
+
+## 4. Exemplos Json: 
+
+Segue abaixo exemplos que podem ser utilizados na api de get e Put. 
+
+
+    A.  Get products
+     $ curl -XGET https://api.produto.exemplo/{code}
+
+     $ curl -XGET https://api.produto.exemplo/7897312400184
+    Response:
+     {
+     Product: {
+      code: "7897312400184",
+      name: "DETERGENTE ECONOMICO NEUTRO 500ML",
+      category: "",
+      manufacturer: "",
+      id: "9587e780-e495-11e5-9d5b-5da257427e93"
+     }
+    }
+
+     
+     b. Add products
+     $ curl -XPOST https://api.produto.exemplo/v1/products \
+       -H 'Content-Type: application/json' \
+       -d '{"": ""}'
+       
+       c. Update products
+          $ curl -XPUT https://api.produto.exempplo/v1/products/{id} \
+        -H 'Content-Type: application/json' \
+        -d '{"": "."}'
+
+     d.  Delete products
+    $ curl -XDELETE https://api.produto.xyz/v1/products/{id}
   
-  
-## 4. Entregaveis:
+## 5. Entregaveis:
     Ao final do desenvolvimento voce deve entregar: 
        - Repositorio com o codigo fonte , contendo orientações de como subir o ambiente. 
        - Breve explicação da solução desenvolvida.
