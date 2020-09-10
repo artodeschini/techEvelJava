@@ -57,18 +57,18 @@ Segue abaixo exemplos que podem ser utilizados na api de get e Put.
        }
 
      
-     b. Add products
+    B. Add products
      $ curl -XPOST https://api.produto.exemplo/v1/products \
        -H 'Content-Type: application/json' \
        -d '{"": ""}'
        
-       c. Update products
-          $ curl -XPUT https://api.produto.exempplo/v1/products/{id} \
+     C. Update products
+      $ curl -XPUT https://api.produto.exempplo/v1/products/{id} \
         -H 'Content-Type: application/json' \
         -d '{"": "."}'
 
-     d.  Delete products
-    $ curl -XDELETE https://api.produto.xyz/v1/products/{id}
+     D. Delete products
+     $ curl -XDELETE https://api.produto.xyz/v1/products/{id}
   
 ## 5. Entregáveis:
     Ao final do desenvolvimento você deverá entregar: 
