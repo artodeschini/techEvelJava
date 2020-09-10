@@ -2,14 +2,14 @@
 # Tech Eval PortoBello
 
 # Introdução 
-   voce faz parte do time de integrações da Portobello e recebeu a demanda de integrar dados de produto que estão sendo originados pelo sistema de origem  e precisam ser inputados no sistema sistema de destino. 
+   voce faz parte do time de integrações da Portobello e recebeu a demanda de integrar dados de produto que estão sendo originados pelo sistema de origem  e precisam ser inputados no sistema de destino. 
    Sua tarefa é criar uma arquitetura de integração que seja possivel realizar este fluxo com qualidade , escalabilidade e segurança. 
 
 ## 1. Objetivo:
         
   * Criar uma API fake ou utilizar alguma api publica que contenha cadastro de produtos. 
-  * Criar Uma API fake que exponha um metodo Post para inserção dos dados de produtos consultados do Sistema A.
-  * Criar uma arquitetura de microserviços orientada a eventos que tem como objetivo pegar os dados da Api de produto e inserir num sistema B que está expondo uma API de inserção de dados.
+  * Criar Uma API fake que exponha um metodo Post para inserção dos dados de produtos consultados no sistema de origem.
+  * Desenvolver a solução utilizando microserviços e uma arquitetura orientada a eventos , que tem como objetivo pegar os dados da Api de produto e inserir no sistema de destino. 
         
 ## 2. Regras Gerais:
 
@@ -17,17 +17,15 @@
   * Pode-se utilizar banco no-sql ou h2 para armazenar estado.
   * Para a mensageria você pode utlizar rabbitmq ou kafka.
   * Pode trabalhar com o banco h2 para armazenar as mensagens enviadas.
-  * Você não possui uma data final para entregar o exame,  mas iremos avaliar o tempo necessário para cumprir a atividade e a qualidade da entrega.
   * Seu código será avaliado quanto ao cumprimento das tarefas e a qualidade do código escrito.
-  * O código será avaliado segundo os seguintes critérios de avalição:
+  * No seu codigo seram avaliados os seguintes criterios:
   
          a. Execução;
          b. Codigo limpo;
          c. Organização;
          d. Legibilidade;
          e. Cobertura de testes;
-         f. Tempo gasto para cumprir a tarefa (será considerado o momento da solicitação do merge request como fim);
-         g. Tratativa de erros e de exceções;
+         f. Tratativa de erros e de exceções;
     
 ## 3. Arquitetura de Referencia:
 
