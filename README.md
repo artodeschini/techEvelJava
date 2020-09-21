@@ -8,8 +8,8 @@
 
 ## 1. Objetivo:
         
-  * Criar uma API fake ou utilizar alguma api publica que contenha cadastro de produtos. 
-  * Criar Uma API fake que exponha um metodo Post para inserção dos dados de produtos consultados no sistema de origem.
+  * Criar uma API Mock ou utilizar alguma api publica que contenha cadastro de produtos. 
+  * Criar Uma API Mock que exponha um metodo Post para inserção dos dados de produtos consultados no sistema de origem.
   * Desenvolver a solução utilizando microserviços e uma arquitetura orientada a eventos , que tem como objetivo pegar os dados da Api de produto e inserir no sistema de destino. 
         
 ## 2. Regras Gerais:
